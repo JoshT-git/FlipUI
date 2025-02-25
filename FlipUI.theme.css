@@ -1,0 +1,62 @@
+/**
+ * @name FlipUI
+ * @author Josh
+ * @version 1.0.0
+ * @description Mirrors the Default UI
+*/
+
+:root {
+/* main Page*/
+	/* Servers*/
+	.guilds_c48ade {
+	order: 2;
+}
+	/*Main div*/
+	.base_c48ade {		
+	order: 1;
+	}
+	/* Chat*/
+	.sidebar_c48ade{
+		order: 2;
+	}
+	/* Text*/
+	.chat_f75fb0
+	.chatContent_f75fb0	{
+		order: 1;
+	}
+	
+	/* People*/
+	.container_c8ffbb {
+		order: 0;
+	}
+	
+/* Friends Tab */
+	/*Now playing */
+	.nowPlayingColumn__133bf {
+		order: 1;
+	}
+	/* Friends */
+	.peopleColumn__133bf {
+		order: 2;
+	}
+	
+/* Setting*/
+	/* Setting menu*/
+	.contentRegion__23e6b {
+		order: 1;
+	}
+	.sidebar__23e6b {
+		margin: 0 auto;
+		margin-left: 0px;
+	}
+	
+/* Setting body*/
+	.sidebarRegion__23e6b {
+		order: 2;
+	}
+	.contentColumn__23e6b.contentColumnDefault__23e6b {
+		margin:  auto;
+		margin-right: 0px;
+	}
+
+}
