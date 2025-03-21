@@ -1,7 +1,7 @@
 /**
  * @name FlipUI
  * @author Josh
- * @version 1.0.0
+ * @version 1.0.1
  * @description Mirrors the Default UI
 */
 
@@ -10,7 +10,7 @@
 	/* Servers*/
 	.guilds_c48ade {
 	order: 2;
-}
+	}
 	/*Main div*/
 	.base_c48ade {		
 	order: 1;
@@ -24,12 +24,10 @@
 	.chatContent_f75fb0	{
 		order: 1;
 	}
-	
 	/* People*/
 	.container_c8ffbb {
 		order: 0;
 	}
-	
 /* Friends Tab */
 	/*Now playing */
 	.nowPlayingColumn__133bf {
@@ -39,7 +37,6 @@
 	.peopleColumn__133bf {
 		order: 2;
 	}
-	
 /* Setting*/
 	/* Setting menu*/
 	.contentRegion__23e6b {
@@ -49,7 +46,6 @@
 		margin: 0 auto;
 		margin-left: 0px;
 	}
-	
 /* Setting body*/
 	.sidebarRegion__23e6b {
 		order: 2;
@@ -58,5 +54,13 @@
 		margin:  auto;
 		margin-right: 0px;
 	}
-
+/* Forum */	
+	.container_f369db {
+		order: 1;
+	}
+/* Forum expanded */
+	/* Post text */
+	.chatLayerWrapper__01ae2 {
+		padding-right: 250px;
+	}
 }
